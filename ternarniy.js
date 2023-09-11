@@ -8,3 +8,15 @@ for (let i = 0; i < array.length; i++) {
  console.log('====================================');
  
 }
+
+function getDataFromUser () {
+ let name = prompt('your name?')
+ let age = +prompt('your age?')
+ if (age){
+  alert(`congrats ${name}!`)
+ } else{
+  alert('you are damn')
+ }
+ return name, age
+}
+getDataFromUser()
