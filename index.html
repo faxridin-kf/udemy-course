@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Number</title>
     <style>
-        /* Add your CSS styles here if needed */
-    </style>
+     /* Background image and general styling */
+     body {
+         background-image: url('./unnamed.png'); /* Replace 'your-image.jpg' with the path to your background image */
+         background-size: contain; /* Cover the entire viewport with the background image */
+         background-position: center; /* Center the background image */
+         font-family: Arial, sans-serif; /* Set a font family */
+         color: #0c2fbb; /* Set text color to white */
+         text-align: center; /* Center-align text */
+         padding: 20px; /* Add some padding to the body */
+     }
+
+     /* Style the title */
+     h1 {
+         font-size: 36px; /* Increase the font size */
+         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+     }
+
+     /* Style the buttons */
+     button {
+         background-color: #007BFF; /* Set button background color */
+         color: #fff; /* Set button text color */
+         border: none; /* Remove button border */
+         padding: 10px 20px; /* Add padding to the buttons */
+         margin: 5px; /* Add margin between buttons */
+         font-size: 18px; /* Increase button font size */
+         cursor: pointer; /* Change cursor to pointer on hover */
+         border-radius: 5px; /* Add rounded corners to buttons */
+     }
+
+     /* Style the buttons on hover */
+     button:hover {
+         background-color: #0056b3; /* Darken button color on hover */
+     }
+
+     /* Style the guessed number and guess attempts text */
+     p {
+         font-size: 24px; /* Increase the font size */
+     }
+ </style>
 </head>
 <body>
     <h1>Guess the Number</h1>
